@@ -1,0 +1,22 @@
+body {
+    background-color: #da1e1e;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+/* Define styles for headings */
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Define styles for paragraphs */
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    background-color: aquamarine;
+    color: #da1e1e;
+}
