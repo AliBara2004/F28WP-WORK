@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Simple Website with JavaScript Button</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <p>This is a simple website with a JavaScript button.</p>
+        <button id="myButton">Click me!</button>
+    </main>
+
+    <script>
+        // JavaScript code for the button
+        document.getElementById("myButton").addEventListener("click", function() {
+            alert("Button clicked! Hello, World!");
+        });
+    </script>
+</body>
+</html>
