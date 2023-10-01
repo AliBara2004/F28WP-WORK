@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Simple Website with JavaScript Button</title>
+    <title>Simple Website with JavaScript Button and Login</title>
 </head>
 <body>
     <header>
@@ -12,14 +12,40 @@
     </header>
 
     <main>
-        <p>This is a simple website with a JavaScript button.</p>
+        <p>This is a simple website with a JavaScript button and a login form.</p>
         <button id="myButton">Click me!</button>
+
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <button type="button" id="loginButton">Login</button>
+        </form>
+
+        <p id="loginMessage"></p>
     </main>
 
     <script>
-        // JavaScript code for the button
+       
         document.getElementById("myButton").addEventListener("click", function() {
             alert("Button clicked! Hello, World!");
+        });
+
+       
+        document.getElementById("loginButton").addEventListener("click", function() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+           
+            if (username === "AliBara" && password === "bob123") {
+                document.getElementById("loginMessage").textContent = "Login successful!";
+            } else {
+                document.getElementById("loginMessage").textContent = "Login failed. Please try again.";
+            }
         });
     </script>
 </body>
