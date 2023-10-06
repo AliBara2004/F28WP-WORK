@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style section headings */
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Style the checklist */
+#checklist ul {
+    list-style-type: none;
+}
+
+#checklist li {
+    margin-bottom: 10px;
+}
+
+/* Style checkboxes and labels */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
