@@ -14,7 +14,14 @@ function addTask() {
         const checkbox = listItem.querySelector('input[type="checkbox"]');
         checkbox.addEventListener('change', function () {
             if (checkbox.checked) {
-                taskList.removeChild(listItem);
+              
+                const confirmation = confirm('Are you sure you want to remove this task?');
+                if (confirmation) {
+                    taskList.removeChild(listItem);
+                    alert('Task removed!');
+                } else {
+                    checkbox.checked = false; 
+                }
             }
         });
     }
