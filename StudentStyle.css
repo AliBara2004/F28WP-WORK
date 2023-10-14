@@ -1,10 +1,10 @@
-/* Reset some default browser styles */
+/* Reset default styles for body and common elements */
 body, h1, h2, ul, p {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a background color and text color to the body */
+/* Style the entire page */
 body {
     background-color: #f0f0f0;
     color: #333;
@@ -36,7 +36,7 @@ h2 {
     margin-top: 20px;
 }
 
-/* Style the checklist */
+/* Style the checklist section */
 #checklist ul {
     list-style-type: none;
 }
@@ -60,6 +60,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Style the input field for adding new tasks */
 #newTask {
     width: 70%;
     padding: 10px;
@@ -67,6 +68,7 @@ a:hover {
     border: 1px solid #ccc;
 }
 
+/* Style the "Add Task" button */
 #addTask {
     padding: 10px 20px;
     background-color: #007BFF;
@@ -79,7 +81,7 @@ a:hover {
     background-color: #0056b3;
 }
 
-
+/* Style the task list */
 #taskList {
     list-style-type: none;
     padding: 0;
