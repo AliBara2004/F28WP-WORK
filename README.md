@@ -16,3 +16,5 @@ UPDATE WEEK 4: seperated the for student planner and have styled the checklist.
 -----------------------------------------------------------------------------------------------------
 
 WEEK 5 UPDATE: i have updated the js so that when the user ticks of the task an outpur will be displayed for conformation of removal
+
+WEEK 5 UPDATE, I have added inline commetns to the css and js and html files for the student planner website
