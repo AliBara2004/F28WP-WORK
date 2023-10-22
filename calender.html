@@ -13,12 +13,24 @@
             cursor: pointer;
         }
     </style>
-    <button id="goBackButton" onclick="window.location.href = 'StudentPlanner.html';">Go Back</button>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" type="text/css" href="calender.css">
 </head>
 <body>
+    <!-- "Go Back" button moved inside the body with JavaScript navigation -->
+    <button id="goBackButton" onclick="window.location.href = 'StudentPlanner.html';">Go Back</button>
+    
+    <!-- Add a heading for the calendar page -->
     <h1>Calendar</h1>
+    
+    <!-- Fix the image source attribute to "calendar.jpg" -->
     <img src="calender.jpg" alt="Calendar Image">
+    
+    <!-- Include the link to your external CSS file within the head element -->
+    <link rel="stylesheet" type="text/css" href="calendar.css">
+    
+    <!-- Simple script to display a prompt saying "Hello, World!" -->
+    <script>
+        var message = "Welcome to the page";
+        alert(message);
+    </script>
 </body>
 </html>
