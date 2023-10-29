@@ -26,5 +26,10 @@ WEEK 5 UPDATE, I have added inline commetns to the css and js and html files for
 WEEEK 5 UPDATE, I have created a another html for calander, and have added css to the new page 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 WEEK 6 UPDATE button created for calander page with new inline style for button 
 WEEK 6 UPDATE added comments to calender.html and have made a small script with the a welcome prompt
+
+------------------------------------------------------------------------------------------------------------------------
+WEEK 7 update: created link for upcoming tasks, and created a new html page
+WEEK 7 UPDATE: created css for the upcoming tasks page
