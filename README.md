@@ -11,6 +11,7 @@ WEEK 3 UPDATE: Starting to work on a website, this will be the project that i wi
 Update (week3) Added a concept login javascript on the page 
 
 Update (week 3) Added CSS to the code for login
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 WEEK 4 UPDATE: Will be starting on the student planner app that i will be working on. For this week: Get structure done and Logic for checklist. 
 UPDATE (WEEK 4): Added js to the html so that i have a funtional checklist 
@@ -26,3 +27,4 @@ WEEEK 5 UPDATE, I have created a another html for calander, and have added css t
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 WEEK 6 UPDATE button created for calander page with new inline style for button 
+WEEK 6 UPDATE added comments to calender.html and have made a small script with the a welcome prompt
