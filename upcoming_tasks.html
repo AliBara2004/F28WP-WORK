@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upcoming Events and Tasks</title>
-    <link rel="stylesheet" type="text/css" href="style_task.css">
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        form {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,23 +29,53 @@
     <main>
         <section id="events">
             <h2>Upcoming Events</h2>
-            <ul>
-                <!-- List upcoming events here -->
+            <ul id="event-list">
                 <li>Event 1 - Date and Time</li>
                 <li>Event 2 - Date and Time</li>
-                <!-- Add more events as needed -->
             </ul>
+
+            <form id="event-form" onsubmit="addEvent(); return false;">
+                <label for="event">Event:</label>
+                <input type="text" id="event" placeholder="Event name" required>
+                <label for="event-date">Date and Time:</label>
+                <input type="datetime-local" id="event-date" required>
+                <button type="submit">Add Event</button>
+            </form>
         </section>
 
         <section id="tasks">
             <h2>Upcoming Tasks</h2>
-            <ul>
-                <!-- List upcoming tasks here -->
+            <ul id="task-list">
                 <li>Task 1 - Due Date</li>
                 <li>Task 2 - Due Date</li>
-                <!-- Add more tasks as needed -->
             </ul>
+
+            <form id="task-form" onsubmit="addTask(); return false;">
+                <label for="task">Task:</label>
+                <input type="text" id="task" placeholder="Task name" required>
+                <label for="due-date">Due Date:</label>
+                <input type="date" id="due-date" required>
+                <button type="submit">Add Task</button>
+            </form>
         </section>
     </main>
+
+    <script>
+        function addItem(inputId, listId, format) {
+            const inputValue = document.getElementById(inputId).value;
+            const list = document.getElementById(listId);
+            const listItem = document.createElement('li');
+            listItem.textContent = format(inputValue);
+            list.appendChild(listItem);
+        }
+
+        function addEvent() {
+            addItem('event', 'event-list', value => value);
+        }
+
+        function addTask() {
+            addItem('task', 'task-list', value => `Due ${value}`);
+        }
+    </script>
 </body>
 </html>
