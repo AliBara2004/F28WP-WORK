@@ -8,15 +8,22 @@
     <link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
+    <!-- Container for the login form -->
     <div class="login-container">
+        <!-- Login heading -->
         <h1>Login</h1>
+        
+        <!-- Login form with action set to "process_login.php" and method set to "post" -->
         <form action="process_login.php" method="post">
+            <!-- Username input field with label -->
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
 
+            <!-- Password input field with label -->
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
+            <!-- Submit button to initiate the login process -->
             <button type="submit" formaction="StudentPlanner.html">Login</button>
         </form>
     </div>
