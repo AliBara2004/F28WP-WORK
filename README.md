@@ -36,3 +36,7 @@ WEEK 7 UPDATE: created css for the upcoming tasks page
 
 ------------------------------------------------------------------------------------------------------------------------
 Week 8 update: New Json file added 
+
+----------------------------------------------------------------------------------------------------------------------------
+WEEK 9 upcoming taks.hmtl has been updated and modified #
+WEEK 9 i have added a simple embedded css to the html for the upcoming tasks 
