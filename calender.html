@@ -11,6 +11,15 @@
             padding: 10px 20px;
             border: none;
             cursor: pointer;
+            margin-right: 10px; /* Added margin for spacing */
+        }
+
+        #loginButton {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -25,12 +34,15 @@
     <img src="calender.jpg" alt="Calendar Image">
     
     <!-- Include the link to your external CSS file within the head element -->
-    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <link rel="stylesheet" type="text/css" href="calender.css">
     
     <!-- Simple script to display a prompt saying "Hello, World!" -->
     <script>
         var message = "Welcome to the page";
         alert(message);
     </script>
+
+    <!-- Add a login button that redirects to login.html -->
+    <button id="loginButton" onclick="window.location.href = 'login.html';">Login</button>
 </body>
 </html>
