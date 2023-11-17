@@ -13,6 +13,7 @@ Update (week3) Added a concept login javascript on the page
 Update (week 3) Added CSS to the code for login
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 WEEK 4 UPDATE: Will be starting on the student planner app that i will be working on. For this week: Get structure done and Logic for checklist. 
 UPDATE (WEEK 4): Added js to the html so that i have a funtional checklist 
 UPDATE WEEK 4: seperated the for student planner and have styled the checklist.
@@ -38,5 +39,9 @@ WEEK 7 UPDATE: created css for the upcoming tasks page
 Week 8 update: New Json file added 
 
 ----------------------------------------------------------------------------------------------------------------------------
-WEEK 9 upcoming taks.hmtl has been updated and modified #
+WEEK 9 upcoming taks.hmtl has been updated and modified 
 WEEK 9 i have added a simple embedded css to the html for the upcoming tasks 
+WEEK 9 i have added a login button on calender.html and have also added css to it 
+Week 9 i have also updated the comment in the login.html file
+
+---------------------------------------------------------------------------------------------------------
