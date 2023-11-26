@@ -1,0 +1,14 @@
+{
+    "name": "John d dragon",
+    "age": 30,
+    "city": "Example City",
+    "isStudent": false,
+    "grades": [85, 92, 78],
+    "address": {
+      "street": "123 Main Street",
+      "zipcode": "12345"
+    }
+  }
+
+
+  
