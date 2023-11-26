@@ -47,3 +47,8 @@ Week 9 i have also updated the comment in the login.html file
 ---------------------------------------------------------------------------------------------------------
 
 Week 10 update: Made a node js file to create a server
+
+-------------------------------------------------------------------------------------------------------------
+
+Week 11 update: Made a json folder with code
+Weel 11 update: Made a node.js folder with sample code 
